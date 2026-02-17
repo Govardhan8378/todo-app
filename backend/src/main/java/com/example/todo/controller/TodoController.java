@@ -15,7 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://todo-app-abc123.vercel.app"})
 public class TodoController {
 
     private static final Logger log = LoggerFactory.getLogger(TodoController.class);
