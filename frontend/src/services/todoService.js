@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:8080/api/todos';
+const BASE_URL = 'https://todo-app-backend.onrender.com/api/todos';
 
 const api = axios.create({
   baseURL: BASE_URL,
