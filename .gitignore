@@ -1,0 +1,18 @@
+# Create .gitignore
+@"
+# Frontend dependencies
+frontend/node_modules/
+frontend/build/
+
+# Backend build output
+backend/target/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
